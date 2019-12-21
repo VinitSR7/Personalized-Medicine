@@ -54,10 +54,12 @@ Metric(s):
 * Multi class log-loss 
 * Confusion matrix 
 
-<h3> Univarite Analysis done over Each Feature</h3>
+### Univarite Analysis done over Each Feature
+
 - Gene
 - Variation feature
 - Text Feature
+
 <h3> Result </h3>
 * Gene feature is a stable feature, since it's it is equally distributed over the dataset.
 * Variation Feature is not a stable feature, since only about 10% of the variation feature is present in the test data from train data.
