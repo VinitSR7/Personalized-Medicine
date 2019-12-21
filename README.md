@@ -53,3 +53,34 @@ Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment#evaluation
 Metric(s): 
 * Multi class log-loss 
 * Confusion matrix 
+
+<h3> Univarite Analysis done over Each Feature</h3>
+* Gene
+* Variation feature
+* Text Feature
+<h3> Result </h3>
+* Gene feature is a stable feature, since it's it is equally distributed over the dataset.
+* Variation Feature is not a stable feature, since only about 10% of the variation feature is present in the test data from train data.
+* Text Feature is also a stable feature.
+
+<h3> Data Preparation </h3> 
+We will perform 2 types of encoding of the data<br>
+ <ul> 
+        <li>
+        1. One Hot encoding
+        </li>
+        <li>
+        Response Coding
+        </li>
+    </ul>
+
+<h2> Models used </h2>
+* Logistic Regression with class imbalancing
+* Logistic Regression without class imbalancing
+* K-Nearest Neighbors classifier
+* Naive Bayes Classifier
+* Linear SVM Classifier
+* Random Forest Classifier
+* Stacking Classifier
+* Majority Voting Classifier (using mlxtend library)
+
