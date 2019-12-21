@@ -54,7 +54,7 @@ Metric(s):
 * Multi class log-loss 
 * Confusion matrix 
 
-<h3> Univarite Analysis done over Each Feature</h3>
+<h3> Univarite Analysis done over Each Feature</h3>:
 * Gene
 * Variation feature
 * Text Feature
